@@ -44,6 +44,7 @@ body {
   border: 2px solid #34789f;
   cursor: pointer;
   color: white;
+  touch-action: manipulation;
   text-shadow: 1px 1px 0 #2980b9, -1px -1px 0 #2980b9, 1px -1px 0 #2980b9,
     -1px 1px 0 #2980b9, 0 1px 0 #2980b9, 0 -1px 0 #2980b9, 1px 0 0 #2980b9,
     -1px 0 0 #2980b9;
@@ -618,4 +619,5 @@ body > *:not(.snow-canvas) {
 
 #charURL {
   color: white;
+
 }
