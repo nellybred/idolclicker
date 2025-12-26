@@ -189,7 +189,7 @@ const savedData = localStorage.getItem("gameData");
 if (savedData) {
   try {
     const data = JSON.parse(savedData);
-    clicks = data.clicks || 10000;
+    clicks = data.clicks || 0;
     collection = data.collection || {
       Ali: { r3: 0, r4: 0, r5: 0 },
       Den: { r3: 0, r4: 0, r5: 0 },
@@ -678,3 +678,4 @@ function createSnowCanvas() {
   requestAnimationFrame(animate);
 }
 createSnowCanvas();
+
